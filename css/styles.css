@@ -1,0 +1,179 @@
+body {
+    background-color: #fff;
+    font-family: 'Roboto';
+    color: #212121;
+    font-weight: 400;
+}
+ul {
+    list-style: none;
+}
+.text-decor {
+    text-decoration: none;
+}
+/* Header */
+.header {
+    background: #FFFFFF;
+}
+
+.webstudio {
+        font-family:'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        color: #212121;
+}
+.web {
+    color:#2196F3;
+}
+
+.link-li{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: #212121;
+}
+.link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: #757575;
+}
+
+.link-li:hover, .link-li:focus {
+    color: #2196F3;
+}
+
+.link:hover {
+    color: #2196F3;
+}
+/* Main */
+.decision {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            background-color: #2F303A; 
+}
+
+.btn {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+            text-align: center;
+            letter-spacing: 0.06em;
+            color: #FFFFFF;
+            background-color: #2196F3;
+            border: none;
+            cursor: pointer;
+}
+.btn:hover, .btn:focus {
+    color: #2196F3;
+}
+
+.menu {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
+}
+.submenu {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+.work {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+.team {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+} 
+ 
+.member {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+.kind {
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+
+/* Footer */
+.webstudio-footer {
+    font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        color: #FFFFFF;
+}
+.address {
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+}
+.email {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
+.email:hover, .email:focus {
+    color: #2196F3;
+}
+footer {
+    background-color: #2F303A;
+    
+}
+
+/* Portfolio */
+.btn-li {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.63;
+        letter-spacing: 0.03em;
+        border: none;
+        cursor: pointer;
+}
+.btn-li:hover, .btn-li:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+.title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.88;
+        letter-spacing: 0.06em;
+        color: #212121;
+}
+.title-p {
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
