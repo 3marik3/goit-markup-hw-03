@@ -48,19 +48,33 @@ ul {
 .link:hover {
     color: #2196F3;
 }
+
+.container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+}
 /* Main */
+.hero {
+        background: #2F303A;
+        text-align: center;
+        background-color: #2F303A;
+        width: 1600px;
+        height: 600px;
+}
 .decision {
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
-        text-align: center;
             letter-spacing: 0.06em;
             text-transform: uppercase;
-            color: #FFFFFF;
-            background-color: #2F303A; 
+            color: #FFFFFF; 
+            margin-top: 0;
+            margin-bottom: 30px;
 }
 
 .btn {
+        display: inline-block;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
@@ -70,6 +84,9 @@ ul {
             background-color: #2196F3;
             border: none;
             cursor: pointer;
+            min-width: 200px;
+            height: 50px;
+            padding: 10px 32px;
 }
 .btn:hover, .btn:focus {
     color: #2196F3;
