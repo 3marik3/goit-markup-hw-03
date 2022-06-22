@@ -4,6 +4,10 @@ body {
     color: #212121;
     font-weight: 400;
 }
+h1, h2, h3, ul, p, ul {
+        margin: 0px;
+        padding: 0px;
+}
 ul {
     list-style: none;
 }
@@ -13,7 +17,7 @@ ul {
 /* Header */
 .header {
     background: #FFFFFF;
-    padding: auto 200px;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .webstudio {
@@ -117,6 +121,7 @@ ul {
         text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
+        margin-bottom: 50px;
 }
 .team {
         font-weight: 700;
@@ -125,6 +130,7 @@ ul {
         text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
+        margin-bottom: 50px;
 } 
  
 .member {
