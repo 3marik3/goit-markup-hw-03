@@ -13,6 +13,7 @@ ul {
 /* Header */
 .header {
     background: #FFFFFF;
+    padding: auto 200px;
 }
 
 .webstudio {
@@ -50,17 +51,20 @@ ul {
 }
 
 .container {
+        width: 1200px;
         margin-left: auto;
         margin-right: auto;
-        width: 1200px;
+}
+.section {
+        margin-top: 94px;
+        margin-bottom: 94px;
 }
 /* Main */
 .hero {
         background: #2F303A;
         text-align: center;
         background-color: #2F303A;
-        width: 1600px;
-        height: 600px;
+
 }
 .decision {
         font-weight: 900;
@@ -165,7 +169,7 @@ ul {
 }
 footer {
     background-color: #2F303A;
-    
+    padding: auto 200px;
 }
 
 /* Portfolio */
