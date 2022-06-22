@@ -19,7 +19,9 @@ ul {
     background: #FFFFFF;
     border-bottom: 1px solid #ECECEC;
 }
-
+.auth-div {
+        display: flex;
+}
 .webstudio {
         font-family:'Raleway';
         font-weight: 700;
@@ -30,7 +32,19 @@ ul {
 .web {
     color:#2196F3;
 }
-
+.site-nav {
+        display: flex;
+        margin-right: 50px;
+}
+ .site-nav li:not(:last-child) {
+        margin-right: 50px;
+ }
+ .site-ul {
+        display: flex;
+ }
+.site-ul li:not(:last-child) {
+        margin-right: 50px;
+}
 .link-li{
         font-weight: 500;
         font-size: 14px;
@@ -186,6 +200,7 @@ footer {
         letter-spacing: 0.03em;
         border: none;
         cursor: pointer;
+
 }
 .btn-li:hover, .btn-li:focus {
     background-color: #2196F3;
@@ -203,4 +218,11 @@ footer {
         line-height: 1.88;
         letter-spacing: 0.03em;
         color: #757575;
+}
+.projects {
+        display: none;
+}
+.images {
+        margin-top: 50px;
+
 }
