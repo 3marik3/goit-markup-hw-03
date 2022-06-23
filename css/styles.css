@@ -21,6 +21,11 @@ ul {
 }
 .auth-div {
         display: flex;
+        align-items: center;
+}
+.auth-nav {
+        display: flex;
+        align-items: center;
 }
 .webstudio {
         font-family:'Raleway';
@@ -28,6 +33,7 @@ ul {
         font-size: 26px;
         line-height: 1.19;
         color: #212121;
+        display: block;
 }
 .web {
     color:#2196F3;
@@ -41,10 +47,19 @@ ul {
  }
  .site-ul {
         display: flex;
+        margin-left: 93px;
+ }
+ .site-ul-li {
+        display: flex;
+
  }
 .site-ul li:not(:last-child) {
         margin-right: 50px;
 }
+.site-ul-li li:not(:last-child) {
+        margin-right: 50px;
+}
+
 .link-li{
         font-weight: 500;
         font-size: 14px;
