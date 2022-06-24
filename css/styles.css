@@ -18,6 +18,7 @@ ul {
 .header {
     background: #FFFFFF;
     border-bottom: 1px solid #ECECEC;
+    height: 80px;
 }
 .auth-div {
         display: flex;
@@ -51,6 +52,7 @@ ul {
  }
  .site-ul-li {
         display: flex;
+        margin-left: 331px;
 
  }
 .site-ul li:not(:last-child) {
