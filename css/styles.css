@@ -18,7 +18,6 @@ ul {
 .header {
     background: #FFFFFF;
     border-bottom: 1px solid #ECECEC;
-    height: 80px;
 }
 .auth-div {
         display: flex;
@@ -49,6 +48,8 @@ ul {
  .site-ul {
         display: flex;
         margin-left: 93px;
+                padding-top: 32px;
+                        padding-bottom: 32px;
  }
  .site-ul-li {
         display: flex;
@@ -95,8 +96,8 @@ ul {
         margin-bottom: 94px;
 }
 /* Main */
+  /* < !-- Рішення --> */
 .hero {
-        background: #2F303A;
         text-align: center;
         background-color: #2F303A;
 
@@ -130,6 +131,18 @@ ul {
 .btn:hover, .btn:focus {
     color: #2196F3;
 }
+/* < !-- Увага,
+пунктуальність,
+планування та сучасні технології --> */
+.job {
+        display: flex;
+}
+.job li:not(:last-child) {
+        margin-right: 30px;
+}
+.job-li {
+        width: 270px;
+}
 
 .menu {
         font-weight: 700;
@@ -145,6 +158,7 @@ ul {
         letter-spacing: 0.03em;
         color: #757575;
 }
+  /* < !-- Чим ми займаємось --> */
 .work {
         font-weight: 700;
         font-size: 36px;
@@ -154,6 +168,13 @@ ul {
         color: #212121;
         margin-bottom: 50px;
 }
+.work-ul {
+        display: flex;
+}
+.work-ul li:not(:last-child) {
+        margin-right: 30px;
+}
+ /* < !-- Команда --> */
 .team {
         font-weight: 700;
         font-size: 36px;
@@ -163,7 +184,12 @@ ul {
         color: #212121;
         margin-bottom: 50px;
 } 
- 
+ .team-ul {
+        display: flex;
+ }
+ .team-ul li:not(:last-child) {
+        margin-right: 30px;
+ }
 .member {
         font-weight: 500;
         font-size: 16px;
@@ -187,6 +213,9 @@ ul {
         font-size: 26px;
         line-height: 1.19;
         color: #FFFFFF;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        display: inline-block;
 }
 .address {
         font-style: normal;
@@ -194,7 +223,9 @@ ul {
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: #FFFFFF;
+        margin-top: 20px;
 }
+
 .email {
         font-size: 14px;
         line-height: 1.71;
@@ -204,9 +235,15 @@ ul {
 .email:hover, .email:focus {
     color: #2196F3;
 }
+.email-link li {
+        margin-top: 9px;
+}
 footer {
     background-color: #2F303A;
-    padding: auto 200px;
+margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 60px;
+        padding-bottom: 60px;
 }
 
 /* Portfolio */
@@ -219,9 +256,16 @@ footer {
         cursor: pointer;
 
 }
+.btn-ul li:not(:last-child) {
+        margin-right: 8px;
+}
 .btn-li:hover, .btn-li:focus {
     background-color: #2196F3;
     color: #FFFFFF;
+}
+.btn-ul {
+        display: flex;
+        justify-content: center;
 }
 .title {
         font-weight: 700;
@@ -241,5 +285,9 @@ footer {
 }
 .images {
         margin-top: 50px;
-
+        display: flex;
+        flex-wrap: wrap;
+}
+.images-link {
+        padding: 15px;
 }
