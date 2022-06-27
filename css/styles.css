@@ -1,12 +1,12 @@
 body {
-    background-color: #fff;
+    background-color: #FFFFFF;
     font-family: 'Roboto';
     color: #212121;
     font-weight: 400;
 }
-h1, h2, h3, ul, p, ul {
-        margin: 0px;
-        padding: 0px;
+h1, h2, h3, ul, p {
+        margin: 0;
+        padding: 0;
 }
 ul {
     list-style: none;
@@ -26,6 +26,7 @@ ul {
 .auth-nav {
         display: flex;
         align-items: center;
+
 }
 .webstudio {
         font-family:'Raleway';
@@ -34,6 +35,8 @@ ul {
         line-height: 1.19;
         color: #212121;
         display: block;
+        padding-top: 25px;
+        padding-bottom: 25px;
 }
 .web {
     color:#2196F3;
@@ -48,13 +51,10 @@ ul {
  .site-ul {
         display: flex;
         margin-left: 93px;
-                padding-top: 32px;
-                        padding-bottom: 32px;
  }
  .site-ul-li {
         display: flex;
-        margin-left: 331px;
-
+        margin-left: 370px;
  }
 .site-ul li:not(:last-child) {
         margin-right: 50px;
@@ -69,6 +69,8 @@ ul {
         line-height: 1.14;
         letter-spacing: 0.02em;
         color: #212121;
+        padding-top: 32px;
+        padding-bottom: 32px;
 }
 .link {
         font-weight: 500;
@@ -76,6 +78,8 @@ ul {
         line-height: 1.14;
         letter-spacing: 0.02em;
         color: #757575;
+        padding-top: 32px;
+        padding-bottom: 32px;
 }
 
 .link-li:hover, .link-li:focus {
@@ -88,18 +92,20 @@ ul {
 
 .container {
         width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 15px;
+        margin-right: 15px;
 }
 .section {
-        margin-top: 94px;
-        margin-bottom: 94px;
+        padding-top: 94px;
+        padding-bottom: 94px;
 }
 /* Main */
   /* < !-- Рішення --> */
 .hero {
         text-align: center;
         background-color: #2F303A;
+        padding-top: 200px;
+        padding-bottom: 200px;
 
 }
 .decision {
@@ -151,6 +157,7 @@ ul {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #212121;
+        margin-bottom: 10px;
 }
 .submenu {
         font-size: 14px;
@@ -205,7 +212,10 @@ ul {
         letter-spacing: 0.03em;
         color: #757575;
 }
-
+.div-p {
+        padding-bottom: 30px;
+        padding-top: 30px;
+}
 /* Footer */
 .webstudio-footer {
     font-family: 'Raleway';
@@ -214,7 +224,6 @@ ul {
         line-height: 1.19;
         color: #FFFFFF;
         margin-top: 0px;
-        margin-bottom: 20px;
         display: inline-block;
 }
 .address {
@@ -245,7 +254,9 @@ margin-top: 0;
         padding-top: 60px;
         padding-bottom: 60px;
 }
-
+.div-contacts {
+        margin-top: 20px;
+}
 /* Portfolio */
 .btn-li {
         font-weight: 500;
@@ -266,6 +277,7 @@ margin-top: 0;
 .btn-ul {
         display: flex;
         justify-content: center;
+        margin-bottom: 50px;
 }
 .title {
         font-weight: 700;
@@ -280,14 +292,21 @@ margin-top: 0;
         letter-spacing: 0.03em;
         color: #757575;
 }
+.div-title {
+        border-right: 1px solid #EEEEEE;
+        border-left: 1px solid #EEEEEE;
+        border-bottom: 1px solid #EEEEEE;
+        margin: 20px 24px;
+}
 .projects {
         display: none;
 }
 .images {
-        margin-top: 50px;
+
         display: flex;
         flex-wrap: wrap;
 }
 .images-link {
-        padding: 15px;
+        margin-right: 30px;
+        margin-bottom: 30px;
 }
